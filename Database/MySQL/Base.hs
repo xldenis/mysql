@@ -44,6 +44,7 @@ module Database.MySQL.Base
     , changeUser
     , selectDB
     , setCharacterSet
+    , withConn
     -- ** Connection information
     , threadId
     , serverInfo
